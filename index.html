@@ -23,8 +23,17 @@
       font-size: 2.5rem;
     }
     header p {
-      margin: 5px 0 0;
+      margin: 5px 0 15px;
       font-size: 1.2rem;
+    }
+    .hire-btn {
+      background: white;
+      color: #1a237e;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
     }
     section {
       max-width: 900px;
@@ -50,6 +59,21 @@
       margin: 10px 0;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    .contact-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+    .contact-buttons a {
+      background: #1a237e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
     footer {
       text-align: center;
       padding: 15px;
@@ -67,13 +91,14 @@
   <header>
     <h1>Ankit Dhobi</h1>
     <p>CSE 3rd Year | JEC Kukas | Internshala Student Partner</p>
+    <a href="tel:+916375059737" class="hire-btn">Hire Me</a>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
       Hi! I'm Ankit Dhobi, a Computer Science Engineering student at JEC Kukas. 
-      I'm passionate about software developer, Python, and building projects that make an impact. 
+      I'm passionate about software development, Python, and building projects that make an impact. 
       Currently, I’m also working as an Internshala Student Partner (ISP).
     </p>
   </section>
@@ -101,15 +126,12 @@
   </section>
 
   <section>
-    <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:dhobi.ankit23301@jeckukas.org.in">dhobi.ankit23301@jeckukas.org.in</a></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/916375059737">+91 6375059737</a></p>
-    <p>🔗 LinkedIn: <a href="#">https://www.linkedin.com/in/ANKIT2309</a></p>
-    <p>💻 GitHub: <a href="#">Your GitHub Link</a></p>
-  </section>
+    <h2>Contact Me</h2>
+    <div class="contact-buttons">
+      <a href="mailto:dhobi.ankit23301@jeckukas.org.in?subject=Hiring%20Inquiry&body=Hi%20Ankit," target="_blank">📧 Email Me</a>
+      <a href="https://www.linkedin.com/in/ANKIT2309" target="_blank">🔗 LinkedIn</a>
+      <a href="tel:+916375059737">📞 Call Me</a>
 
   <footer>
     <p>© 2025 Ankit Dhobi | Portfolio</p>
   </footer>
-</body>
-</html>
